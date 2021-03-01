@@ -58,7 +58,7 @@ AdafruitIO_Feed *fridgealarm = io.feed("FridgeAlarm");                          
 //
 // email variables
 //
-EMailSender emailSend("markvanpraetlowsec@gmail.com", "H5cBcjb4ARS>");
+EMailSender emailSend("**********@*********", "***********");
 uint8_t connection_state = 0;
 uint16_t reconnect_interval = 10000;
 long unsigned int last_alert_email = 0;
